@@ -14,8 +14,8 @@
 %%
 %% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 %% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
 %% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 %% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 %% SOFTWARE.
@@ -26,93 +26,79 @@
 % For mathematical symbols
 \usepackage{amsmath}
 
-% Set applicant's personal data for header
-\name{Gayle L. McDowell}
-\address{123 Spruce St, Apt 35 \linebreak Philadelphia PA 19103}
-\contacts{(555) 555-1212 \linebreak gayle@careercup.com}
-
+% Set applicant's data for header
+\name{Biswambar Pradhan}
+\address{Bangalore, \linebreak India}
+\contacts{+91 9668089243 \linebreak \mbox{developer.biswambar@gmail.com } \linebreak linkedin.com/in/biswambarp}
 \begin{document}
 
-	% Print the header
-	\makeheader
-	
-	% Print the content
-	\begin{cvsection}{Employment}
-		\begin{cvsubsection}{Software Engineer, Intern}{Apple Computer}{Summer 2004}
-			iChat AV			
-			\begin{itemize}
-				\item Reduced time to render the user’s buddy list by 75\% by implementing prediction algorithm.
-				\item Implemented iChat integration with OS X Spotlight Search by creating tool which extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-				\item Redesigned chat file format and implemented backwards compatibility for search.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Lead Student Ambassador}{Microsoft Corporation}{Fall 2003 -- Spring 2005}	
-			\begin{itemize}
-				\item Promoted to Lead Student Ambassador in Fall 2004; supervised 10 -- 15 Student Ambassadors.
-				\item Created and taught Computer Science course, CSE 099: Software Design and Development.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Head Teaching Assistant}{University of Pennsylvania}{Fall 2001 -- Spring 2005}		
-			\begin{itemize}
-				\item Courses: Advanced Java III, Software Engineering, Mathematical Foundations of Computer Science I \& II.
-				\item Promoted to Head TA in Fall 2004; led weekly meetings and supervised four other TAs.
-			\end{itemize}
-		\end{cvsubsection}
-		
-		\begin{cvsubsection}{Software Design Engineer, Intern}{Microsoft Corporation}{Summers 2001 -- 2003}
-			Visual Studio Core (Summer 2003)		
-			\begin{itemize}
-				\item Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-				\item Created service to provide gradient across VS and VS add-ins. Optimized service via caching.
-			\end{itemize}
-			Programmer Productivity Research Center (Summers 2001, 2002)
-			\begin{itemize}
-				\item Built app to compute similarity of all methods in a code base; reduced time from $O(n^2)$ to $O(n\ log\ n)$. 
-				\item Created test case generation tool which creates random XML docs from XML Schema.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Education}
-		\begin{cvsubsection}{Philadelphia, PA}{University of Pennsylvania}{Fall 2000 -- May 2005}
-			\begin{itemize}
-				\item M.S.E. in Computer and Information Science, May 2005. GPA: 3.6
-				\item B.S.E. in Computer Science Engineering with Minor in Mathematics, May 2005.  In-major GPA: 3.4.
-				\item Graduate Coursework: Software Foundations; Computer Architecture; Algorithms; Artificial Intelligence; Comparison of Learning Algorithms; Computational Theory.
-				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Comp. Architecture; Engineering Entrepreneurship; Calculus III.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Technical Experience}
-		\begin{cvsubsection}{Projects}{}{}
-			\begin{itemize}
-				\item \textbf{Multi-User Drawing Tool} (2004). Electronic classroom where multiple users can view and simultaneously draw on a “chalkboard” with each person’s edits synchronized.  C++, MFC
-				\item \textbf{Synchronized Calendar} (2003 – 2004). Desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.  C\#.NET, SQL, XML
-				\item \textbf{Operating System} (2002).  UNIX-style OS with scheduler, file system, text editor and calculator. C
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Additional Experience and Awards}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item \textbf{Instructor (2003 – 2005):} Taught two full-credit Computer Science courses; average ratings of 4.8 out of 5.0.
-				\item \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for Synchronized Calendar project, out of 100 projects.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-	\begin{cvsection}{Languages and Technologies}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item C++; C; Java; Objective-C; C\#.NET; SQL; JavaScript; XSLT; XML (XSD) Schema 
-				\item Visual Studio; Microsoft SQL Server; Eclipse; XCode; Interface Builder
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-\end{document}
+    % Print the header
+    \makeheader
 
+    % Print the content
+    \begin{cvsection}{Languages and Technologies}
+        \begin{cvsubsection}{}{}{}
+            \begin{itemize}
+                \item Java; Spring; Hibernate; Node.js; JUnit; Mockito; Microservices
+                \item  AWS EC2; S3; Lambda; ECS, Fargate, CloudFormation, AWS Serverless, PostgreSQL; MySQL;
+                \item Git; Maven; Cloud Foundry; Postman; IntelliJ IDEA; STS; Bamboo; UrbanCode Deploy; Jenkins
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+    \begin{cvsection}{Employment}
+        \begin{cvsubsection}{Software Engineer}{Ernest and Young}{\normalfont 08/2021-Present}
+            US CDI,	Fidelity International
+            \begin{itemize}
+                \item Played a key role in Launching USCDI in Fidelity's trading platform, enabling UK users to buy assets from US Share Market.
+                \item Delivered Estimation, foreign exchange charge API using Java, SpringBoot which more than 2.7 million
+                Fidelity users are using it to buy US stocks.
+                \item Created AWS Infrastructure of API gateway, AWS Fargate, Cognito, and WAF rules using CloudFormation in a Blue-Green deployment model.
+                \item Created Eligibility service using Java, and SpringBoot to validate every trade placed in US CDI.
+                \item Developed lightweight middle-ware APIs using Node, Express, and AWS Lambda to fetch various financial data from IHS Markit
+                \item Created a Reconciliation application that compares data between 2 sources and sends the discrepancy as a
+                Notification (SNS)
+                \item US CDI resulted in trading more than £550K in one month.
+            \end{itemize}
+        \end{cvsubsection}
+
+        \begin{cvsubsection}{Software Engineer}{Persistent Systems}{\normalfont 03/2021-08/2021}
+            Actimize Anti-money Laundering
+            \begin{itemize}
+                \item Built RESTful APIs that served data to our JavaScript front-end that handled over 30,000 concurrent
+                users
+                \item Developed internal tool using Java to automate front-end component creation which reduced development
+                the effort from 3 hrs to 20 minutes
+                \item Created and Managed AWS EC2, RDS instances for the deployment of Microservices
+                \item Interacted with various stakeholders to understand business needs and translate those business needs into
+                actionable features in Java and Spring Boot
+            \end{itemize}
+        \end{cvsubsection}
+        \begin{cvsubsection}{Software Engineer}{Tata Consultancy Service}{\normalfont 06/2018 - 03/2021}
+            Hospital Beacon Tracker, General Electric
+            \begin{itemize}
+                \item Implemented an IOT-based tracking system to track all the hospital equipments  increased the productivity of Hospitals by 30 percent
+                \item Lead a team of 3 people to deliver java Micro-services for the tracking application.
+                \item Migrated On-premise Servers, Databases of more than 5 web applications to AWS Cloud
+                \item Saleslogix CRM: Worked on a legacy CRM Product having more than 200 engagements per day
+                \item Successfully delivered different modules (Tickets, Engagements, Order Processing) of the Saleslogix CRM
+                \item Migrated all the Application Servers from Windows Server 2003 to Windows Server 2019.
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Education}
+        \begin{cvsubsection}{Bhubaneswar, IN}{\mbox{Odisha University of Technology and Research}}{(Aug 2014-May 2018)}
+            \begin{itemize}
+                \item B.Tech in  Electrical Engineering
+            \end{itemize}
+        \end{cvsubsection}
+        \begin{cvsubsection}{Bhubaneswar, IN}{\mbox{Council of Higher Secondary Education}}{(May 2012- June 2014)}
+            \begin{itemize}
+                \item Secondary Education (Physics, Chemistry, Math)
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+
+
+
+\end{document}
