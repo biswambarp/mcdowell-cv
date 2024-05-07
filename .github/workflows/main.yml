@@ -1,5 +1,5 @@
 name: Build LaTeX document
-on: [push]
+on: [ push ]
 jobs:
   generate_resume_pdf:
     runs-on: ubuntu-latest
@@ -16,8 +16,7 @@ jobs:
         env:
           TEXINPUTS: ".:./mcdowellcv.cls//:"
 
-      - name: Release
-          uses: softprops/action-gh-release@v2
-          if: startsWith(github.ref, 'refs/tags/')
-          with:
-            files: Biswambar_Pradhan_Resume.pdf
+      - name: Release_PDF
+        uses: softprops/action-gh-release@v2
+        with:
+          files: Biswambar_Pradhan_Resume.pdf
