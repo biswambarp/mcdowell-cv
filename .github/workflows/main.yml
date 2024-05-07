@@ -11,6 +11,8 @@ jobs:
         with:
           latexmk_use_lualatex: true
           root_file: Biswambar_Pradhan_Resume.tex
+          extra_fonts: |
+            ./fonts/*.otf
         env:
           TEXINPUTS: ".:./mcdowellcv.cls//:"
       - name: Upload PDF file
