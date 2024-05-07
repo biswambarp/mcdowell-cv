@@ -16,7 +16,8 @@ jobs:
         env:
           TEXINPUTS: ".:./mcdowellcv.cls//:"
 
-      - name: Release_PDF
-        uses: softprops/action-gh-release@v2
+      - name: Release PDF
+      - uses: ncipollo/release-action@v1
         with:
-          files: Biswambar_Pradhan_Resume.pdf
+          bodyFile: "Biswambar_Pradhan_Resume.pdf"
+
