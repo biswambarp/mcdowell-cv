@@ -9,6 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
+          latexmk_use_lualatex: true
           root_file: Biswambar_Pradhan_Resume.tex
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
