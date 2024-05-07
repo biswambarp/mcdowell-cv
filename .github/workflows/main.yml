@@ -17,7 +17,7 @@ jobs:
           TEXINPUTS: ".:./mcdowellcv.cls//:"
 
       - name: Release PDF
-      - uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@v1
         with:
-          bodyFile: "Biswambar_Pradhan_Resume.pdf"
+            bodyFile: "Biswambar_Pradhan_Resume.pdf"
 
