@@ -19,5 +19,6 @@ jobs:
       - name: Release PDF
         uses: ncipollo/release-action@v1
         with:
+            name: "Latest Resume"
             bodyFile: "Biswambar_Pradhan_Resume.pdf"
 
