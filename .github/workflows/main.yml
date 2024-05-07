@@ -12,7 +12,7 @@ jobs:
           latexmk_use_lualatex: true
           root_file: Biswambar_Pradhan_Resume.tex
         env:
-          TEXINPUTS: "mcdowellcv.cls"
+          TEXINPUTS: ".:./mcdowellcv.cls//:"
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
