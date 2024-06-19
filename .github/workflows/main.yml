@@ -12,13 +12,13 @@ jobs:
           latexmk_use_lualatex: true
           root_file: Biswambar_Pradhan_Resume.tex
           extra_fonts: |
-            ./fonts/*.ttf
+            ./fonts/*.ttf+
         env:
           TEXINPUTS: ".:./mcdowellcv.cls//:"
 
       - name: Release PDF
         uses: ncipollo/release-action@v1
         with:
-            name: "Latest Resume"
+            
             bodyFile: "Biswambar_Pradhan_Resume.pdf"
 
